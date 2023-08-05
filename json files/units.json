@@ -1,0 +1,22 @@
+{
+    "kg": {
+        "description": "kilogram",
+        "conversion": 1
+    },
+    "g": {
+        "description": "gram",
+        "conversion": 0.001
+    },
+    "mg": {
+        "description": "milligram",
+        "conversion": 0.000001
+    },
+    "lb": {
+        "description": "pound",
+        "conversion": 0.453592
+    },
+    "oz": {
+        "description": "ounce",
+        "conversion": 0.0283495
+    }
+}
