@@ -9,7 +9,7 @@ class Currency:
     conversion_rate: float
 
 
-"""def get_currencies():
+"""def test_get_currencies():
     with open('json files/symbol_test.json', 'r') as temp:
         currency_validation_dict = json.load(temp)
     
@@ -46,7 +46,4 @@ def get_currency_conversion(valid_symbol_dict):
         
     valid_conversion_dict = {currency: rate for currency, rate in invalid_conversion_dict['rates'].items() if currency in [v['code'] for v in valid_symbol_dict.values()]}
 
-    with open('full_currency_test.json', 'w') as outfile:
-        json.dump(valid_conversion_dict, outfile)
-    print(valid_conversion_dict)
     return valid_conversion_dict
